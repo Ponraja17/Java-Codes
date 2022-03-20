@@ -1,0 +1,15 @@
+import java.util.*;
+import java.util.Scanner;
+import javax.swing.JOptionPane;
+public class RoyalCyber {
+	public static void main(String arga[]) {
+		Scanner input=new Scanner(System.in);
+		System.out.println("enter the string : ");
+		String a="Welcome Raja";
+		System.out.println(a);
+		JOptionPane.showMessageDialog(null,a);
+		
+	
+	}
+
+}

@@ -1,0 +1,14 @@
+import java.util.*;
+import java.util.Scanner;
+public class RoyalCyber {
+	public static void main(String arga[]) {
+		Scanner input=new Scanner(System.in);
+		int i=0;
+		int a[]=new int[8];
+		
+		for(i=0;i<5;i++)
+			a[i]=i+1;
+		System.out.print(a[i]);
+	}
+
+}

@@ -1,0 +1,21 @@
+import java.util.*;
+import java.util.Scanner;
+import javax.swing.JOptionPane;
+public class RoyalCyber {
+	public static void main(String arga[]) {
+		Scanner input=new Scanner(System.in);
+		System.out.println("enter the string : ");
+		String a=input.nextLine();
+		System.out.println(a);
+		
+		int c,d;
+		System.out.println("enter number");
+		c=input.nextInt();
+		d=c/2;
+		System.out.println(d);
+		JOptionPane.showMessageDialog(null,d);
+		
+	
+	}
+
+}

@@ -1,0 +1,20 @@
+import java.util.Scanner;
+import java.util.*;
+public class Dublicat_Array {
+public static void main(String args[]) {
+	int i,j;
+	int []a= {1,2,5,5,6,7,6,2};
+
+	ArrayList l=new ArrayList();
+	for(i=0;i<a.length;i++) {
+		for(j=i+1;j<a.length;j++) {
+			if(a[i]==a[j]) {
+				l.add(a[i]);
+			
+		
+			}
+		}
+	}
+	System.out.print(a);
+}
+}
